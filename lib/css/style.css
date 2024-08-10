@@ -304,15 +304,22 @@ in a new line if the vh is to small */
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 68px;
+    padding-bottom: 68px;
 }
 /* styling the quote */
 .quote {
     font-size: 36px;
-    font-weight: lighter;
+    font-style: italic;
+    font-weight: 300;
     color: #1F2937;
     max-width: 846px;
 }
+/* styling the source and put them on the right side */
 .source {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
     display: flex;
     justify-content: flex-end;
 }
