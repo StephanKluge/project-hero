@@ -117,6 +117,7 @@ in a new line if the vh is to small */
     display: flex;
     flex-wrap: wrap;
     gap: 42px;
+    padding-top: 42px;
 }
 /* set the card and the text under the card to the same size */
 .cards{
