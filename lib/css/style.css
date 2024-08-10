@@ -110,7 +110,9 @@ body {
     flex-direction: column;
     align-items: center;
     padding-top: 42px;
+    padding-bottom: 100px;
 }
+/* styling of the h2 in info-section */
 .info-container > h2 {
     font-size: 36px;
     color: #1F2937;
@@ -127,15 +129,21 @@ in a new line if the vh is to small */
 /* set the card and the text under the card to the same size */
 .cards{
     flex-shrink: 0;
-    max-width: 150px;
+    max-width: 180px;
 }
 /* generate the card */
 .card {
-    max-width: 150px;
-    height: 150px;
+    max-width: 180px;
+    height: 180px;
     border: 4px solid #3882F6;
     border-radius: 15px;
 }
+/* set the text to center and push them away from the card */
 .card-text {
     text-align: center;
+    padding-top: 12px;
+}
+/* Styling the Quote-Container and make them Flex */
+.quote-container {
+    background-color: #E5E7EB;
 }
