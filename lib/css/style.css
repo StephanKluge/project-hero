@@ -111,6 +111,11 @@ body {
     align-items: center;
     padding-top: 42px;
 }
+.info-container > h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight:900;
+}
 /* set the cards to a row. prevent them to shrink and push the cards
 in a new line if the vh is to small */
 .cards-container{
