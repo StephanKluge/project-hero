@@ -182,9 +182,7 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    padding-left: 25vw;
-    padding-right: 25vw;
-    padding-bottom: 5vw;
+    padding: 0 25vw 5vw 25vw;
 }
 /* Set the whole navigation-container to flex to set them in a row and gave them a top and bottom padding of 18px */
 .navigation-container {
@@ -252,10 +250,7 @@ body {
     border-radius: 5px;
     border: 0;
     color: #E5E7EB;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 10px;
     margin-top: 5px;
     cursor: pointer;
 }
@@ -264,10 +259,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 42px;
-    padding-bottom: 100px;
-    padding-left: 25vw;
-    padding-right: 25vw;
+    padding: 42px 25vw  100px 25vw;
 }
 /* styling of the h2 in info-section */
 .info-container > h2 {
@@ -306,10 +298,7 @@ in a new line if the vh is to small */
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 68px;
-    padding-bottom: 68px;
-    padding-left: 25vw;
-    padding-right: 25vw;
+    padding: 68px 25vw;
 }
 /* styling the quote */
 .quote {
@@ -338,8 +327,7 @@ in a new line if the vh is to small */
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 0;
     background-color: #3882F6;
     width: 50vw;
     border-radius: 5px;
@@ -354,6 +342,7 @@ button {
     color: #F9FAF8;
     border-radius: 10px;
     padding: 10px 20px;
+    cursor: pointer;
 }
 footer {
     display: flex;
